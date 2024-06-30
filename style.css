@@ -33,9 +33,7 @@ body,html,*{
     #r2>div{
         text-align: center;
     }
-     .c1>h6{
-        display: none;
-    }
+   
 }
 @media (max-width:576px) {
     .c1>h1{
@@ -396,4 +394,53 @@ background-color: white;
     /* width: 50%; */
     background-color: var(--color) !important;
     border: 1px double var(--color);
+}
+#mainabout2>img{
+    background-position: center;
+    height: 100vh !important;
+    object-fit: cover;
+    border-radius: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#mainabout2{
+    position: relative;
+    
+}
+.secimg{
+position: absolute;
+top: 10px;
+/* border: 5px dotted green; */
+height: 80vh !important;
+/* margin: 0px 10px; */
+/* opacity: 0.600; */
+left: 0px;
+top: 80px;
+/* z-index: -1; */
+position: absolute; 
+   /* border-radius: 30px; */
+    /* background-color: var(--color); */
+}
+.fimg{
+    height: 80vh;
+    border: 2px solid red;
+}
+#of{
+    background-color: white;
+    color: var(--color);
+    padding: 0px 20px;
+    border-radius: 20px;
+}
+#df{
+    background-color: var(--color);
+    height: 80vh;
+    top: 80px;
+    /* margin: 0px 10px; */
+    opacity: 0.850;
+    font-weight: bolder;
+    color: white;
+    /* z-index: 22; */
+    /* top: 0px; */
+    position: absolute; 
+       /* border-radius:0px 0px 30px 30px; */
 }
