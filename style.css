@@ -48,6 +48,10 @@ body,html,*{
     #home{
         height: 90vh !important;
     }
+        swiper-container{
+        height: 70vh !important;
+        /* border: 12px dotted green !important; */
+    }
 }
 i{
 
