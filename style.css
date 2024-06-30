@@ -48,7 +48,7 @@ body,html,*{
     #home{
         height: 90vh !important;
     }
-        swiper-container{
+    swiper-container{
         height: 70vh !important;
         /* border: 12px dotted green !important; */
     }
@@ -157,22 +157,24 @@ swiper-container {
     margin: 0px;
     color: white;
     padding: 0px;
-    height: 110vh;
+    /* border: 2px solid red; */
+    height: 100vh;
   }
 
   swiper-slide {
     text-align: center;
     font-size: 18px;
      display: flex; 
-
+     /* height: 70vh !important; */
     /* align-items: center;  */
   }
 
   swiper-slide img {
     display: block;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
-    object-fit: cover;
+border: 1px dotted var(--color);
+    /* object-fit: cover; */
   }
 /* SWIPPER */
 .i1{
@@ -372,4 +374,23 @@ background-color: white;
     /* height: 100%; */
   
     border: 3px dotted var(--color);
+}
+#ab-c1{
+    padding: 100px 0px;
+    position: relative;
+}
+#ab-c1>div>div{
+
+    font-weight: bolder !important;
+}
+#ab-c1>div{
+    color: white;
+    /* background-color: white; */
+    height: 150px;
+    opacity: 0.800;
+    top: 10px !important;
+    position: absolute;
+    /* width: 50%; */
+    background-color: var(--color) !important;
+    border: 1px double var(--color);
 }
