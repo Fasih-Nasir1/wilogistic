@@ -25,9 +25,13 @@ document.addEventListener("scroll", () => {
 
 var num=0
 var num1=0
+// var num2=0
+// var num1=0
 function fn2(){
     var demo1=document.getElementById("demo1").innerHTML=num + "+"
     var demo2=document.getElementById("demo2").innerHTML=num1 + "K"
+       var demo1=document.getElementById("demo3").innerHTML=num + "+"
+    var demo2=document.getElementById("demo4").innerHTML=num1 + "K"
     num++
     num1++
 if(num > 23){
