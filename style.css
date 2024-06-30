@@ -34,6 +34,21 @@ body,html,*{
         text-align: center;
     }
 }
+@media (max-width:576px) {
+    .c1>h1{
+        font-size: 48px !important;
+    }
+    .c1>h6{
+        /* color: v; */
+        padding: 10px 0px;
+        text-align: left;
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    #home{
+        height: 90vh !important;
+    }
+}
 i{
 
     color: var(--font-color);
